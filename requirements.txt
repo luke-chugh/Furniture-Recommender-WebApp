@@ -1,0 +1,9 @@
+streamlit
+Pillow
+numpy
+pickle-mixin
+tensorflow
+scikit-learn
+keras
+pytest-shutil
+tqdm
