@@ -1,2 +1,2 @@
-# fashion-recommender-system
-A Deep Learning based Fashion Recommender System using the ResNET50
+# furniture-recommender-system
+A Deep Learning based Furniture Recommender System using the ResNET50
