@@ -1,5 +1,10 @@
 # Furniture Recommender System
 
+![](https://img.shields.io/badge/python-3.10.4-blueviolet)
+![](https://img.shields.io/badge/tensorflow-2.9.0-fuchsia)
+![](https://img.shields.io/badge/scikit--learn-0.24.1-blue)
+![](https://img.shields.io/badge/streamlit-1.9.1-brightgreen)
+
 This WebApp can recommend chairs, couches/sofa, beds, and tables.
 
 # How it works ?
