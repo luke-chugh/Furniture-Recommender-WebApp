@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/scikit--learn-0.24.1-blue)
 ![](https://img.shields.io/badge/streamlit-1.9.1-brightgreen)
 
-This WebApp can recommend chairs, couches/sofa, beds, and tables.
+This WebApp can recommend chairs, couches/sofa, beds, and tables. The dataset can be found [here](https://www.kaggle.com/competitions/day-3-kaggle-competition/data). 
 
 Docker Container Registry: lukechugh/furniture_recommender_webapp
 
@@ -39,8 +39,6 @@ Here's an expanded version:
 
 - **Deployment:**
   - The web app was built using Streamlit and deployed on the cloud within a Docker container.
-  
-Pretrained ResNet-50 model in **generator.py** was used to extract features of each image in the **images** folder. These features were saved in **embeddings.pkl**. Then these features were fed to **K-Nearest Neighbors** model in **app.py** which by bruteforcing the **euclidean distance** between the image uploaded by the user and all the images in the **images** folder returned the indexes of 5 nearest neighbors of the image inputted by the user on the WebApp. At last the images from the **images** folder corresponding to these 5 indexes were shown as recommendations on the WebApp. The dataset can be found [here](https://www.kaggle.com/competitions/day-3-kaggle-competition/data). 
 
 # Below are the screenshots of this WebApp:
 
